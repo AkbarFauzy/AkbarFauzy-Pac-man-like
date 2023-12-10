@@ -10,6 +10,7 @@ public class PatrolState : BaseState
     void BaseState.EnterState(Enemy enemy)
     {
         Debug.Log("Start Patrolling");
+        enemy.Animator.SetTrigger("PatrolState");
         _isMoving = false;
     }
 
