@@ -27,11 +27,11 @@ public class ScoreManager : MonoBehaviour
         UpdateUI();
     }
 
-    private void Start()
+/*    private void Start()
     {
         _score = 0;
         _maxScore = 0;
         UpdateUI();
-    }
+    }*/
 
 }
